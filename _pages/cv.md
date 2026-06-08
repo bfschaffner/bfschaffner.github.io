@@ -1,64 +1,36 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+Download the full CV (PDF): **[schaffner_cv.pdf](/files/schaffner_cv.pdf)**
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+Last updated: {{ site.time | date: "%B %Y" }}
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<embed src="/files/schaffner_cv.pdf#toolbar=1&navpanes=0" type="application/pdf" width="100%" height="900px" />
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Education
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* **Ph.D., Political Science**, Indiana University, 2002
+* **B.A., Political Science**, University of Georgia, 1997
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Employment
+
+* **Tufts University** — Newhouse Professor of Civic Studies, 2018–present
+* **University of Massachusetts, Amherst**
+  * Professor, 2013–2018
+  * Associate Professor, 2008–2013
+  * Department Chair, 2012–2015
+* **National Science Foundation** — Rotating Program Officer for Political Science, 2008–2009
+* **American University** — Assistant Professor, 2004–2008
+* **Western Michigan University** — Assistant Professor, 2002–2004
+
+## Selected Awards & Fellowships
+
+* **Andrew Carnegie Fellowship**, 2024
+* **Choice Outstanding Academic Title for 2021**, *Hometown Inequality* (with Rhodes & La Raja)
+* **Virginia Gray Best Book Award (2016)**, *Campaign Finance and Political Polarization* (with La Raja)
+* **APSA Class & Inequality Section Best Paper Award**, 2016
+* **State Politics & Policy Quarterly Best Paper Award**, 2002
