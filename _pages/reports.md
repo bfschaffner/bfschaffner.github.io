@@ -6,10 +6,9 @@ author_profile: true
 ---
 
 I write regularly for **[Good Authority](https://goodauthority.org/people/brian-schaffner/)**
-(the successor to *The Washington Post*'s Monkey Cage), publish policy reports
-for organizations like Demos and the Institute for Strategic Dialogue, and
-contribute analysis to the Tufts Public Opinion Lab. A selection follows. For
-peer-reviewed work, see [Publications](/publications/).
+(the successor to *The Washington Post*'s Monkey Cage) and publish policy
+reports for organizations like Demos and the Institute for Strategic Dialogue.
+A selection follows. For peer-reviewed work, see [Publications](/publications/).
 
 ## Recent Good Authority Posts
 
@@ -51,24 +50,22 @@ peer-reviewed work, see [Publications](/publications/).
   With Caroline Soler. February 28, 2025.
   But it may still not be enough to lead to a big policy shift.
 
-## Earlier Op-Eds (Monkey Cage / Washington Monthly)
+## Op-Eds
 
-* **"[This is what Trump voters said when asked to compare his inauguration
-  crowd with Obama's](https://www.washingtonpost.com/news/monkey-cage/wp/2017/01/25/we-asked-people-which-inauguration-crowd-was-bigger-heres-what-they-said/)."**
-  With Samantha Luks. *The Washington Post*, Monkey Cage. January 25, 2017.
-  (#2 trending Washington Post blog post.)
-* **"[Early voters predict who wins. This is good news for Democrats.](https://www.washingtonpost.com/news/monkey-cage/wp/2016/11/01/early-voters-predict-who-wins-this-is-good-news-for-democrats/)"**
-  *The Washington Post*, Monkey Cage. November 1, 2016.
-* **"[Trump wants to investigate purported mass voter fraud. We pre-debunked
-  his evidence.](https://www.washingtonpost.com/news/monkey-cage/wp/2016/10/19/trump-thinks-non-citizens-are-deciding-elections-we-debunked-the-research-hes-citing/)"**
-  *The Washington Post*, Monkey Cage. October 19, 2016.
-* **"[Want to reform campaign finance and reduce corruption? Here's how.](https://www.washingtonpost.com/news/monkey-cage/wp/2015/10/26/want-to-reform-campaign-finance-and-reduce-corruption-heres-how/)"**
-  With Raymond J. La Raja. *The Washington Post*, Monkey Cage. October 26, 2015.
-* **"[Off-Cycle Elections and the Parties.](https://washingtonmonthly.com/2014/08/18/off-cycle-elections-and-the-parties/)"**
-  *Washington Monthly*. August 18, 2014.
+* **"[How Trump's Racism Is Helping the Suburbs Turn Blue.](https://www.nytimes.com/2020/08/23/opinion/trump-racism-suburbs.html)"**
+  *The New York Times*. August 23, 2020.
+* **"[The Youth Vote Will Decide 2020.](https://www.nytimes.com/2019/02/16/opinion/sunday/trump-youth-vote.html)"**
+  *The New York Times*. February 16, 2019.
+* **"[Why Obama Voters Defected to Trump.](https://www.nytimes.com/2018/03/10/opinion/sunday/obama-trump-voters-democrats.html)"**
+  *The New York Times*. March 10, 2018.
+* **[Pieces at *Vox*](https://www.vox.com/authors/brian-schaffner)** — author archive.
+* **"[Donald Trump's claims of illegal votes have been debunked. Repeatedly.](https://www.politico.com/magazine/story/2016/11/donald-trump-illegal-votes-evidence-debunked-214487/)"**
+  *Politico*. November 2016.
 
 A fuller archive of media writing is on the
-[Muck Rack profile](https://muckrack.com/brian-schaffner/articles).
+[Muck Rack profile](https://muckrack.com/brian-schaffner/articles). All earlier
+*Washington Post* Monkey Cage posts are also available via the
+[Good Authority archive](https://goodauthority.org/people/brian-schaffner/).
 
 ## Policy Reports
 
@@ -76,28 +73,5 @@ A fuller archive of media writing is on the
 * **Whose Voice, Whose Choice? The Distorting Influence of the Political Donor
   Class in Our Big-Money Elections.** With Sean McElwee and Jesse H. Rhodes.
   Demos, 2016.
-
-## Tufts Public Opinion Lab Reports
-
-* **Partisanship and Responses to COVID-19.** Tufts Public Opinion Lab, 2020.
-* **Estimates of Unemployment During COVID.** Tufts Public Opinion Lab, 2020.
-* **Validating Social Research Surveys.** Tufts Public Opinion Lab, 2020.
-* **Measuring Gender in Surveys.** Tufts Public Opinion Lab, 2020.
-* **Bernie Sanders Supporters in the 2016 Election.** Tufts Public Opinion
-  Lab, 2016.
-
-See the lab's [Medium blog](https://medium.com/tufts-public-opinion-lab) for
-the full archive.
-
-## Media Coverage of My Research
-
-* **"[Brian Schaffner Named a 2024 Andrew Carnegie Fellow](https://now.tufts.edu/2024/05/07/brian-schaffner-named-2024-andrew-carnegie-fellow)."**
-  *Tufts Now*, May 7, 2024.
-* **"[More Evidence That Racism and Sexism Were Key to Trump's Victory](https://psmag.com/social-justice/more-evidence-that-racism-and-sexism-were-key-to-trump-victory/)."**
-  *Pacific Standard*. Coverage of the *Political Science Quarterly* paper with
-  MacWilliams and Nteta.
-* **["Tufts Professor Details 'Trump Effect' on American Voters After Midterm
-  Elections."](https://cornellsun.com/2018/11/12/tufts-professor-details-trump-effect-on-american-voters-after-midterm-elections/)**
-  *Cornell Daily Sun*, November 12, 2018.
 
 *Have a media inquiry? Email [brian.schaffner@tufts.edu](mailto:brian.schaffner@tufts.edu).*

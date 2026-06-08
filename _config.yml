@@ -148,7 +148,10 @@ author:
   github           : "bfschaffner"
   bluesky          : "bfschaffner.bsky.social"
   linkedin         : "brian-schaffner-34b3aa65"
-  wikipedia        : "https://en.wikipedia.org/wiki/Brian_Schaffner"
+  # Note: academicpages's `wikipedia` sidebar field expects a Wikipedia
+  # *username* (for editors) and constructs https://en.wikipedia.org/wiki/User:{value}.
+  # It cannot link to your article. The Wikipedia article link lives in
+  # _pages/about.md under "Find Me Elsewhere" and in social.links above for SEO.
   # The following intentionally left blank - fill in if you use these:
   twitter          :
   mastodon         :

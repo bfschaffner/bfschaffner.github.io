@@ -30,26 +30,7 @@ Argues that public financing and contribution limits have unintended consequence
 
 ---
 
-### Understanding Political Science Research Methods: The Challenge of Inference
-**Maryann Barakso, Daniel M. Sabet, and Brian F. Schaffner.** Routledge, 2013.
-
-Methods textbook organized around the logic of causal inference rather than the catalog of techniques.
-
----
-
-### Politics, Parties, and Elections in America (7th ed.)
-**Brian F. Schaffner.** Wadsworth, 2011.
-
-A widely-adopted introductory text on American political parties and elections.
-
----
-
-### Politics, Parties, and Elections in America (6th ed.)
-**John F. Bibby and Brian F. Schaffner.** Wadsworth, 2007.
-
----
-
 ## Edited
 
-### Winning with Words: The Origins and Impact of Framing
+### [Winning with Words: The Origins and Impact of Framing](https://doi.org/10.4324/9780203883112)
 **Patrick J. Sellers and Brian F. Schaffner, eds.** Routledge, 2009.
