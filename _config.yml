@@ -143,12 +143,12 @@ author:
   employer         : "Tufts University"
   uri              :
   email            : "brian.schaffner@tufts.edu"
-  orcid            : "0000-0003-1953-2464"
+  orcid            : "https://orcid.org/0000-0003-1953-2464"
   googlescholar    : "https://scholar.google.com/citations?user=s13IQeUAAAAJ"
   github           : "bfschaffner"
   bluesky          : "bfschaffner.bsky.social"
   linkedin         : "brian-schaffner-34b3aa65"
-  wikipedia        : "Brian_Schaffner"
+  wikipedia        : "https://en.wikipedia.org/wiki/Brian_Schaffner"
   # The following intentionally left blank - fill in if you use these:
   twitter          :
   mastodon         :
