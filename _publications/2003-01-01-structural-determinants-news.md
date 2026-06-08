@@ -3,7 +3,6 @@ title: "The Structural Determinants of Local Congressional News Coverage"
 collection: publications
 category: manuscripts
 permalink: /publication/2003-01-01-structural-determinants-news
-excerpt: 'Published in *Political Communication*.'
 date: 2003-01-01
 venue: 'Political Communication'
 paperurl: 'https://doi.org/10.1080/105846003901365'
@@ -11,5 +10,3 @@ citation: 'Brian F. Schaffner and Patrick J. Sellers. (2003). &quot;The Structur
 ---
 
 **[Read the paper (DOI)](https://doi.org/10.1080/105846003901365)**
-
-*Political Communication* 20(1): 41–57.

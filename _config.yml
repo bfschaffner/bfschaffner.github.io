@@ -41,9 +41,10 @@ social:
   name                   : *name
   links:
     - "https://scholar.google.com/citations?user=s13IQeUAAAAJ"
-    - "https://orcid.org/0000-0002-9176-2280"
+    - "https://orcid.org/0000-0003-1953-2464"
+    - "https://en.wikipedia.org/wiki/Brian_Schaffner"
     - "https://github.com/bfschaffner"
-    - "https://bsky.app/profile/brianfschaffner.com"
+    - "https://bsky.app/profile/bfschaffner.bsky.social"
     - "https://www.linkedin.com/in/brian-schaffner-34b3aa65/"
 
 # --- Analytics --------------------------------------------------------------
@@ -142,10 +143,10 @@ author:
   employer         : "Tufts University"
   uri              :
   email            : "brian.schaffner@tufts.edu"
-  orcid            : "0000-0002-9176-2280"
+  orcid            : "0000-0003-1953-2464"
   googlescholar    : "https://scholar.google.com/citations?user=s13IQeUAAAAJ"
   github           : "bfschaffner"
-  bluesky          : "brianfschaffner.com"
+  bluesky          : "bfschaffner.bsky.social"
   linkedin         : "brian-schaffner-34b3aa65"
   wikipedia        : "Brian_Schaffner"
   # The following intentionally left blank - fill in if you use these:

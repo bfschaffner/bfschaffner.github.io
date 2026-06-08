@@ -308,7 +308,6 @@ def slugify(s):
 def write_publication(year, slug, title, authors, venue, doi, page_info):
     date = f"{year}-01-01"
     permalink = f"/publication/{date}-{slug}"
-    excerpt = f"Published in *{venue}*."
     if doi:
         paperurl = f"https://doi.org/{doi}"
     else:
@@ -317,12 +316,17 @@ def write_publication(year, slug, title, authors, venue, doi, page_info):
     citation_html = f"{authors}. ({year}). \"{title}.\" *{venue}* {page_info}"
     citation_safe = citation_html.replace('"', '&quot;')
 
+    # Note: academicpages auto-renders "Published in {venue}, {year}" from the
+    # YAML front-matter on both the listing page and the per-paper page. We
+    # therefore deliberately omit the `excerpt` field (which would otherwise
+    # appear as a second "Published in ..." line on the listing) and don't
+    # repeat the venue/year in the body.
+
     body = f"""---
 title: "{title}"
 collection: publications
 category: manuscripts
 permalink: {permalink}
-excerpt: '{excerpt}'
 date: {date}
 venue: '{venue}'
 """
@@ -331,8 +335,7 @@ venue: '{venue}'
     body += f"citation: '{citation_safe}'\n---\n\n"
 
     if doi:
-        body += f"**[Read the paper (DOI)](https://doi.org/{doi})**\n\n"
-    body += f"*{venue}* {page_info}\n"
+        body += f"**[Read the paper (DOI)](https://doi.org/{doi})**\n"
 
     filename = f"_publications/{date}-{slug}.md"
     Path(filename).write_text(body, encoding="utf-8")

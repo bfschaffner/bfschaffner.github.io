@@ -13,7 +13,7 @@ and [Tisch College](https://tischcollege.tufts.edu/people/faculty/brian-schaffne
 at Tufts University. My research focuses on public opinion, campaigns and
 elections, political parties, and race and prejudice in American politics. I
 direct the [Tufts Public Opinion Lab](/lab/) and co-lead the
-[Cooperative Election Study](https://cces.gov.harvard.edu/).
+[Cooperative Election Study](https://tischcollege.tufts.edu/ces).
 
 I am co-author of two books on local politics and campaign finance, and the
 author of several others on political polarization and the Trump era (see
@@ -28,6 +28,8 @@ I write regularly for **[Good Authority](https://goodauthority.org/people/brian-
 
 ## Recent News
 
+* **We are now accepting teams for the
+  [2026 Cooperative Election Study](https://tischcollege.tufts.edu/research-faculty/research-centers/cooperative-election-study/about-methodology).**
 * **May 2024 — Andrew Carnegie Fellowship.** [Named to the 2024 class of Carnegie
   Fellows](https://now.tufts.edu/2024/05/07/brian-schaffner-named-2024-andrew-carnegie-fellow),
   with a $200,000 award to support work on a collaborative book project with
@@ -39,12 +41,10 @@ I write regularly for **[Good Authority](https://goodauthority.org/people/brian-
   "Surviving the screens" (with Blatte) on hidden inattentive respondents in
   online surveys, and "Are local policy attitudes distinct?" (with Rhodes and
   La Raja).
-* **2024 — Cooperative Election Study** modules are in the field; survey
-  instruments and team modules are documented [at the CES site](https://cces.gov.harvard.edu/).
 
 ## Current Roles
 
-* **Co-Principal Investigator**, [Cooperative Election Study](https://cces.gov.harvard.edu/), 2010–
+* **Co-Principal Investigator**, [Cooperative Election Study](https://tischcollege.tufts.edu/ces), 2010–
 * **Director**, [Tufts Public Opinion Lab](/lab/)
 * **Reviewing Editor**, *[PNAS Nexus](https://academic.oup.com/pnasnexus)*, 2022–
 * **Advisory Board**, [British Election Study](https://www.britishelectionstudy.com/), 2021–
@@ -55,10 +55,11 @@ I write regularly for **[Good Authority](https://goodauthority.org/people/brian-
 
 * **Good Authority**: [my posts](https://goodauthority.org/people/brian-schaffner/)
 * **Google Scholar**: [scholar.google.com/citations?user=s13IQeUAAAAJ](https://scholar.google.com/citations?user=s13IQeUAAAAJ) (h-index 44, 7,800+ citations)
-* **ORCID**: [0000-0002-9176-2280](https://orcid.org/0000-0002-9176-2280)
-* **Bluesky**: [@brianfschaffner.com](https://bsky.app/profile/brianfschaffner.com)
+* **ORCID**: [0000-0003-1953-2464](https://orcid.org/0000-0003-1953-2464)
+* **Bluesky**: [@bfschaffner.bsky.social](https://bsky.app/profile/bfschaffner.bsky.social)
 * **GitHub**: [@bfschaffner](https://github.com/bfschaffner)
 * **LinkedIn**: [brian-schaffner](https://www.linkedin.com/in/brian-schaffner-34b3aa65/)
+* **Wikipedia**: [Brian Schaffner](https://en.wikipedia.org/wiki/Brian_Schaffner)
 * **Tufts faculty page**: [Department of Political Science](https://as.tufts.edu/politicalscience/people/faculty/brian-schaffner)
 
 ## Contact

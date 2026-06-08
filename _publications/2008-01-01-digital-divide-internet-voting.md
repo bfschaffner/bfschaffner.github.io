@@ -3,7 +3,6 @@ title: "Digital Divide or Just Another Absentee Ballot? Evaluating Internet Voti
 collection: publications
 category: manuscripts
 permalink: /publication/2008-01-01-digital-divide-internet-voting
-excerpt: 'Published in *American Politics Research*.'
 date: 2008-01-01
 venue: 'American Politics Research'
 paperurl: 'https://doi.org/10.1177/1532673X08318586'
@@ -11,5 +10,3 @@ citation: 'Alicia Prevost and Brian F. Schaffner. (2008). &quot;Digital Divide o
 ---
 
 **[Read the paper (DOI)](https://doi.org/10.1177/1532673X08318586)**
-
-*American Politics Research* 36(4): 510–529.

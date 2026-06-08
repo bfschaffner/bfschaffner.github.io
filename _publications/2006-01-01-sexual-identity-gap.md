@@ -3,7 +3,6 @@ title: "Rights or Benefits? Explaining the Sexual Identity Gap in American Polit
 collection: publications
 category: manuscripts
 permalink: /publication/2006-01-01-sexual-identity-gap
-excerpt: 'Published in *Political Research Quarterly*.'
 date: 2006-01-01
 venue: 'Political Research Quarterly'
 paperurl: 'https://doi.org/10.1177/106591290605900111'
@@ -11,5 +10,3 @@ citation: 'Brian F. Schaffner and Nenad Senic. (2006). &quot;Rights or Benefits?
 ---
 
 **[Read the paper (DOI)](https://doi.org/10.1177/106591290605900111)**
-
-*Political Research Quarterly* 59(1): 123–132.

@@ -3,7 +3,6 @@ title: "Does Survey Mode Still Matter? Findings from a 2010 Multi-Mode Compariso
 collection: publications
 category: manuscripts
 permalink: /publication/2014-01-01-survey-mode-still-matter
-excerpt: 'Published in *Political Analysis*.'
 date: 2014-01-01
 venue: 'Political Analysis'
 paperurl: 'https://doi.org/10.1093/pan/mpt025'
@@ -11,5 +10,3 @@ citation: 'Stephen Ansolabehere and Brian F. Schaffner. (2014). &quot;Does Surve
 ---
 
 **[Read the paper (DOI)](https://doi.org/10.1093/pan/mpt025)**
-
-*Political Analysis* 22(3): 285–303.
