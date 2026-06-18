@@ -15,32 +15,15 @@ elections, political parties, and race and prejudice in American politics. I
 direct the [Tufts Public Opinion Lab](/lab/) and co-lead the
 [Cooperative Election Study](https://tischcollege.tufts.edu/ces).
 
-I am co-author of two books on local politics and campaign finance, and the
-author of several others on political polarization and the Trump era (see
-[Books](/books/)). My work has been published in the *American Political Science
-Review*, *American Journal of Political Science*, *Journal of Politics*,
-*British Journal of Political Science*, *PNAS*, *Public Opinion Quarterly*,
-and other leading journals.
+I am co-author of books on local politics, campaign finance, and political
+polarization during the Trump era (see [Books](/books/)). My work has been
+published in the *American Political Science Review*, *American Journal of
+Political Science*, *Journal of Politics*, *British Journal of Political
+Science*, *Public Opinion Quarterly*, and other leading journals.
 
 I write regularly for **[Good Authority](https://goodauthority.org/people/brian-schaffner/)**
 (the successor to *The Washington Post*'s Monkey Cage). See my
 [recent posts and other public-facing writing](/reports/).
-
-## Recent News
-
-* **We are now accepting teams for the
-  [2026 Cooperative Election Study](https://tischcollege.tufts.edu/research-faculty/research-centers/cooperative-election-study/about-methodology).**
-* **May 2024 — Andrew Carnegie Fellowship.** [Named to the 2024 class of Carnegie
-  Fellows](https://now.tufts.edu/2024/05/07/brian-schaffner-named-2024-andrew-carnegie-fellow),
-  with a $200,000 award to support work on a collaborative book project with
-  Stephen Ansolabehere, *American Mosaic: The Social Identities That Define
-  Our Politics and a Path to Bridge the Divide*.
-* **2025 — New paper.** "Do conservatives really have better mental well-being
-  than liberals?" with Hershewe, Kava, and Strell, *PLOS ONE*.
-* **Forthcoming — Two papers in *Political Science Research and Methods*.**
-  "Surviving the screens" (with Blatte) on hidden inattentive respondents in
-  online surveys, and "Are local policy attitudes distinct?" (with Rhodes and
-  La Raja).
 
 ## Current Roles
 
@@ -54,7 +37,7 @@ I write regularly for **[Good Authority](https://goodauthority.org/people/brian-
 ## Find Me Elsewhere
 
 * **Good Authority**: [my posts](https://goodauthority.org/people/brian-schaffner/)
-* **Google Scholar**: [scholar.google.com/citations?user=s13IQeUAAAAJ](https://scholar.google.com/citations?user=s13IQeUAAAAJ) (h-index 44, 7,800+ citations)
+* **Google Scholar**: [scholar.google.com/citations?user=s13IQeUAAAAJ](https://scholar.google.com/citations?user=s13IQeUAAAAJ)
 * **ORCID**: [0000-0003-1953-2464](https://orcid.org/0000-0003-1953-2464)
 * **Bluesky**: [@bfschaffner.bsky.social](https://bsky.app/profile/bfschaffner.bsky.social)
 * **GitHub**: [@bfschaffner](https://github.com/bfschaffner)
@@ -66,6 +49,5 @@ I write regularly for **[Good Authority](https://goodauthority.org/people/brian-
 
 * **Email**: [brian.schaffner@tufts.edu](mailto:brian.schaffner@tufts.edu)
 * **Office**: Packard Hall, Tufts University
-* **Phone**: (617) 627-3467
 * **Mail**: Department of Political Science, Tufts University, Packard Hall,
   Medford, MA 02155

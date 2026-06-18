@@ -1,20 +1,31 @@
 #!/usr/bin/env python3
 """
-Generate _publications/*.md files for academicpages from a list of publications.
+Generate a single _pages/publications.md page for academicpages.
 
 Run from the website/ root directory:
     python3 scripts/generate_publications.py
 
-This writes one file per publication into _publications/.
+This produces ONE static page listing all publications, grouped by year
+(reverse chronological), with each title linked to the DOI when available.
+
+Why a single page rather than the _publications collection?
+  - The collection layout shows redundant info ("Published in X, Year"
+    auto-generated PLUS a citation field PLUS body content).
+  - It also creates orphan per-paper pages that nothing links to.
+  - And it has a bug where entries with missing fields render as
+    "Published in , 1900".
+A single static page sidesteps all of that and gives us direct control
+over what shows.
+
 Edit the PUBLICATIONS list below to add/remove entries.
 """
-import os
-import re
 from pathlib import Path
+from collections import defaultdict
 
 # Each entry: (year, slug, title, authors_html, venue, doi, page_info)
-# doi is the bare DOI (no https://); set to None or "" if no DOI.
-# page_info is a free-text venue suffix like "76(1): 365-380."
+# - doi is the bare DOI (no https://) or None
+# - page_info is a free-text venue suffix like "76(1): 365-380." or
+#   "Forthcoming." or "" (empty for older items without page info)
 PUBLICATIONS = [
     # Forthcoming
     (2026, "surviving-the-screens",
@@ -300,57 +311,56 @@ PUBLICATIONS = [
 ]
 
 
-def slugify(s):
-    s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
-    return s
-
-
-def write_publication(year, slug, title, authors, venue, doi, page_info):
-    date = f"{year}-01-01"
-    permalink = f"/publication/{date}-{slug}"
+def render_entry(year, slug, title, authors, venue, doi, page_info):
+    # Linked title (to DOI if available, plain text otherwise)
     if doi:
-        paperurl = f"https://doi.org/{doi}"
+        title_md = f"[{title}](https://doi.org/{doi})"
     else:
-        paperurl = ""
+        title_md = title
+    page_str = f" {page_info}" if page_info else ""
+    # Build one bulleted line per pub
+    return f"* {authors}. \"{title_md}.\" *{venue}*{page_str}"
 
-    citation_html = f"{authors}. ({year}). \"{title}.\" *{venue}* {page_info}"
-    citation_safe = citation_html.replace('"', '&quot;')
 
-    # Note: academicpages auto-renders "Published in {venue}, {year}" from the
-    # YAML front-matter on both the listing page and the per-paper page. We
-    # therefore deliberately omit the `excerpt` field (which would otherwise
-    # appear as a second "Published in ..." line on the listing) and don't
-    # repeat the venue/year in the body.
-
-    body = f"""---
-title: "{title}"
-collection: publications
-category: manuscripts
-permalink: {permalink}
-date: {date}
-venue: '{venue}'
-"""
-    if paperurl:
-        body += f"paperurl: '{paperurl}'\n"
-    body += f"citation: '{citation_safe}'\n---\n\n"
-
-    if doi:
-        body += f"**[Read the paper (DOI)](https://doi.org/{doi})**\n"
-
-    filename = f"_publications/{date}-{slug}.md"
-    Path(filename).write_text(body, encoding="utf-8")
-    return filename
+def render_year_label(y):
+    return "Forthcoming" if y >= 2026 else str(y)
 
 
 def main():
-    out_dir = Path("_publications")
-    out_dir.mkdir(exist_ok=True)
-    written = []
-    for pub in PUBLICATIONS:
-        written.append(write_publication(*pub))
-    print(f"Wrote {len(written)} publication files to _publications/")
-    for f in written:
-        print(f"  {f}")
+    out_path = Path("_pages/publications.md")
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Group by display-year (collapse 2026+ into "Forthcoming")
+    by_year = defaultdict(list)
+    for p in PUBLICATIONS:
+        label = render_year_label(p[0])
+        by_year[label].append(p)
+
+    # Sort years descending (Forthcoming first, then numeric desc)
+    def year_sort_key(label):
+        return (0, label) if label == "Forthcoming" else (1, -int(label))
+
+    header = """---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
+
+Peer-reviewed journal articles, listed most-recent first. Each title links to
+the published version. For other writing, see [Reports & Op-Eds](/reports/).
+For books, see [Books](/books/).
+"""
+
+    sections = []
+    for label in sorted(by_year, key=year_sort_key):
+        section = [f"\n## {label}\n"]
+        for p in by_year[label]:
+            section.append(render_entry(*p))
+        sections.append("\n".join(section))
+
+    out_path.write_text(header + "\n".join(sections) + "\n", encoding="utf-8")
+    print(f"Wrote {sum(len(v) for v in by_year.values())} publications to {out_path}")
 
 
 if __name__ == "__main__":

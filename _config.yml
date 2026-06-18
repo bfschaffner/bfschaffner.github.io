@@ -212,16 +212,21 @@ defaults:
       comments: false
 
 # --- Collections ------------------------------------------------------------
+# Note: publications is intentionally disabled. The publications page is a
+# single static markdown file at _pages/publications.md instead of a Jekyll
+# collection. This sidesteps the academicpages quirk where missing fields
+# render as "Published in , 1900" and avoids generating orphan per-paper
+# pages that nothing links to.
 collections:
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
